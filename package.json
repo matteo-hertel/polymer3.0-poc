@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Matteo Hertel <info@matteohertel.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "flat": true
 }
