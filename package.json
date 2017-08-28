@@ -4,5 +4,8 @@
   "main": "index.js",
   "author": "Matteo Hertel <info@matteohertel.com>",
   "license": "MIT",
-  "flat": true
+  "flat": true,
+  "dependencies": {
+    "@polymer/polymer": "next"
+  }
 }
