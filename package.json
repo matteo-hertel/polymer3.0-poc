@@ -6,6 +6,10 @@
   "license": "MIT",
   "flat": true,
   "dependencies": {
-    "@polymer/polymer": "next"
+    "@polymer/polymer": "next",
+    "@webcomponents/webcomponentsjs": "^1.0.10"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.10"
   }
 }
