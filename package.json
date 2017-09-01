@@ -11,5 +11,8 @@
   },
   "resolutions": {
     "@webcomponents/webcomponentsjs": "1.0.10"
+  },
+  "scripts": {
+    "dev": "polymer serve --npm -o"
   }
 }
