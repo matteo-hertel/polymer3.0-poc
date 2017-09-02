@@ -2,7 +2,97 @@
 # yarn lockfile v1
 
 
-"@polymer/polymer@next":
+"@polymer/font-roboto@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-0.0.3.tgz#9d58edb660bbed2d4bd29d3bf9b21c20bddd6187"
+
+"@polymer/iron-a11y-keys-behavior@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-0.0.3.tgz#82a9c535d01ae94cb33d9c071a9a543ebc2044c0"
+  dependencies:
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-behaviors@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-0.0.3.tgz#027484885ddb924f99fa8083dfba810e39d2671b"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-checked-element-behavior@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-0.0.3.tgz#1e78b6a76751495350d51d9caaaf6c0f7f74bd7a"
+  dependencies:
+    "@polymer/iron-form-element-behavior" "^0.0.3"
+    "@polymer/iron-validatable-behavior" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-flex-layout@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-0.0.3.tgz#b7d7a732b1cbadfe6aa9500ca06f40d02578baf7"
+  dependencies:
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-form-element-behavior@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-0.0.3.tgz#3564a2a51d8ccfdda4193d943d5fd0c12c463759"
+  dependencies:
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-meta@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-0.0.3.tgz#a4cec8479bdaec66ff03749a59136f21fde01d70"
+  dependencies:
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/iron-validatable-behavior@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-0.0.3.tgz#438747173d2b1d3bc1a08458a55ed31c9b4f192f"
+  dependencies:
+    "@polymer/iron-meta" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/paper-behaviors@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-0.0.3.tgz#79a39b1dc62c067a179efa70c4f34e1fb8de9a6f"
+  dependencies:
+    "@polymer/iron-behaviors" "^0.0.3"
+    "@polymer/iron-checked-element-behavior" "^0.0.3"
+    "@polymer/paper-ripple" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/paper-button@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-button/-/paper-button-0.0.3.tgz#5ff68830b86732a8108be0259b4b673f0a8cc156"
+  dependencies:
+    "@polymer/iron-flex-layout" "^0.0.3"
+    "@polymer/paper-behaviors" "^0.0.3"
+    "@polymer/paper-material" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/paper-material@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-material/-/paper-material-0.0.3.tgz#f15d36e9bda705c2969c70564730a646c02c26c2"
+  dependencies:
+    "@polymer/paper-styles" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/paper-ripple@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-ripple/-/paper-ripple-0.0.3.tgz#2b722947a852825233967606cd5fcf590eb7d829"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/paper-styles@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-0.0.3.tgz#b8466a047807d6fc63c24fa71b486c975cc75379"
+  dependencies:
+    "@polymer/font-roboto" "^0.0.3"
+    "@polymer/iron-flex-layout" "^0.0.3"
+    "@polymer/polymer" "^1.2.5-npm-test.2"
+
+"@polymer/polymer@^1.2.5-npm-test.2", "@polymer/polymer@next":
   version "3.0.0-pre.1"
   resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.0.0-pre.1.tgz#9fc26b5259aad9265f324ced02de715991d2eabe"
   dependencies:
@@ -16,3 +106,7 @@
 "@webcomponents/webcomponentsjs@^1.0.0", "@webcomponents/webcomponentsjs@^1.0.10":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-1.0.10.tgz#990da9820a89931c8df285871ec943bf99d4a747"
+
+webcomponents.js@^0.7.20:
+  version "0.7.24"
+  resolved "https://registry.yarnpkg.com/webcomponents.js/-/webcomponents.js-0.7.24.tgz#2116fbfa1468ec416a7befdaa333e1d118f69c04"

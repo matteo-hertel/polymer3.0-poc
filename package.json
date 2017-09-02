@@ -6,11 +6,13 @@
   "license": "MIT",
   "flat": true,
   "dependencies": {
+    "@polymer/paper-button": "^0.0.3",
     "@polymer/polymer": "next",
     "@webcomponents/webcomponentsjs": "^1.0.10"
   },
   "resolutions": {
-    "@webcomponents/webcomponentsjs": "1.0.10"
+    "@webcomponents/webcomponentsjs": "1.0.10",
+    "@polymer/polymer": "3.0.0-pre.1"
   },
   "scripts": {
     "dev": "polymer serve --npm -o"
