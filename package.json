@@ -6,7 +6,6 @@
   "license": "MIT",
   "flat": true,
   "dependencies": {
-    "@polymer/paper-button": "^0.0.3",
     "@polymer/polymer": "next",
     "@webcomponents/webcomponentsjs": "^1.0.10"
   },
