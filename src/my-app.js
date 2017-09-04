@@ -2,13 +2,14 @@
 // Modules give you the freedom to rename the members that you import
 import { Element as PolymerElement }
     from '../node_modules/@polymer/polymer/polymer-element.js';
+import paperButton from "../node_modules/@polymer/paper-button";
 
 // Added "export" to export the MyApp symbol from the module
 export class MyApp extends PolymerElement {
 
     // Define a string template instead of a `<template>` element.
     static get template() {
-        return `<div>This is my [[name]] app.</div>`
+        return `<div>This is my [[name]] app.<paper-button>LOL</paper-button></div>`
     }
 
     constructor() {
