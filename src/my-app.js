@@ -2,7 +2,7 @@
 // Modules give you the freedom to rename the members that you import
 import { Element as PolymerElement }
     from '../node_modules/@polymer/polymer/polymer-element.js';
-import paperButton from "../node_modules/@polymer/paper-button";
+import "../node_modules/@polymer/paper-button/paper-button.js";
 
 // Added "export" to export the MyApp symbol from the module
 export class MyApp extends PolymerElement {
