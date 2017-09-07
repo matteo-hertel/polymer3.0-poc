@@ -3,13 +3,15 @@
 import { Element as PolymerElement }
     from '../node_modules/@polymer/polymer/polymer-element.js';
 import "../node_modules/@polymer/paper-button/paper-button.js";
-import myAppTemplate from "./my-app-template.html";
+
 // Added "export" to export the MyApp symbol from the module
 export class MyApp extends PolymerElement {
 
     // Define a string template instead of a `<template>` element.
     static get template() {
-        return myAppTemplate;
+        return `<div>This is my [[name]] app.
+            < paper - button > LOL</paper - button >
+</div >`
     }
 
     constructor() {
