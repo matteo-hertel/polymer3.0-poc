@@ -10,7 +10,7 @@ export class MyApp extends PolymerElement {
     // Define a string template instead of a `<template>` element.
     static get template() {
         return `<div>This is my [[name]] app.
-            < paper - button > LOL</paper - button >
+            <paper-button on-click="handleClick">LOL</paper-button>
 </div >`
     }
 
@@ -24,6 +24,10 @@ export class MyApp extends PolymerElement {
         name: {
             Type: String
         }
+    }
+
+    handleClick() {
+        alert("wassuuuup")
     }
 }
 
