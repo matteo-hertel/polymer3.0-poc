@@ -8,7 +8,7 @@ export class HTMLConsole extends PolymerElement {
 
     // Define a string template instead of a `<template>` element.
     static get template() {
-        return `<pre>[[fullName]]</pre>`
+        return `<pre>Hi, [[fullName]]</pre>`
     }
 
     constructor() {
@@ -22,13 +22,11 @@ export class HTMLConsole extends PolymerElement {
     static get properties() {
         return {
             first: {
-                type: String,
-                value: "Jon"
+                type: String
             },
 
             last: {
-                type: String,
-                value: "Snow"
+                type: String
             },
 
             fullName: {
