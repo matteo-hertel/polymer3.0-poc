@@ -9,25 +9,27 @@ export class MyApp extends PolymerElement {
 
     // Define a string template instead of a `<template>` element.
     static get template() {
-        return `<div>This is my [[name]] app.
-                    <html-console></html-console>
+        return `<div>
+                    <paper-button on-click="setName">Set name</paper-button>
+                    <html-console first="[[name]]" last="[[surname]]"></html-console>
                 </div>`
     }
 
     constructor() {
         super();
-        this.name = '3.0 preview';
     }
 
     // properties, observers, etc. are identical to 2.x
     static get properties() {
-        name: {
-            Type: String
+        return {
+            name: String,
+            surname: String
         }
     }
 
-    handleClick() {
-        alert("wassuuuup")
+    setName() {
+        this.name = "Jon";
+        this.surname = "Snow"
     }
 }
 
